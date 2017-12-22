@@ -69,7 +69,7 @@ const genMenu = (array) => {
 const activator = (valor) => {
   valor.addClass('active');
   valor.find("img").css('display', 'inline');
-  valor.css('background', '#0079d7');
+  valor.css('background', '#0072CE');
   $(".lista-menu").fadeIn('fast');
 }
 
@@ -114,7 +114,7 @@ $(".img-servicio").on("click", function() {
       $(".lista-menu").fadeIn('fast');
     } else {
       $(".img-servicio").find('span').css('font-size', '3em');
-      $(this).find('span').css('font-size', '4.5em');
+      $(this).find('span').css('font-size', '4em');
       $(".img-servicio").addClass('desactive-item');
       $(this).removeClass('desactive-item');
       $(".lista-menu").fadeOut('fast');
